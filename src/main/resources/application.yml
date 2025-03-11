@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: users
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bank
+    username: myuser
+    password: 12345
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
